@@ -4,11 +4,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import SplashScreen from './src/screens/SplashScreen';
-import SigninScreen from './src/screens/SigninScreen';
 import CartScreen from './src/screens/CartScreen';
-import SignupScreen from './src/screens/SignupScreen';
-import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen';
-import InformationScreen from './src/screens/InformationScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import ContactScreen from './src/screens/ContactScreen';
 
