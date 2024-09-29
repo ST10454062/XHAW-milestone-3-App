@@ -31,10 +31,6 @@ const App = () => {
   const navigator = createStackNavigator(
     {
       Splash: (props) => <SplashScreen {...props} items={items}/>,
-      Information: (props) => <InformationScreen {...props} items={items}/>,
-      SignIn: (props) => <SigninScreen {...props} items={items}/>,
-      ForgotPassword: (props) => <ForgotPasswordScreen {...props} items={items}/>,
-      SignUp: (props) => <SignupScreen {...props} items={items}/>,
       Home: (props) => <HomeScreen {...props} items={items}/>,
       Cart: (props) => <CartScreen {...props} items={items}/>,
       Contact: (props) => <ContactScreen {...props} items={items}/>,
